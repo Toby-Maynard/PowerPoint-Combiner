@@ -1,1 +1,5 @@
-print("hello world")
+import os
+
+arr = os.listdir('.')
+
+print(arr)
