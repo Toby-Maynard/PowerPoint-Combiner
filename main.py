@@ -1,5 +1,9 @@
 import os
 
-arr = os.listdir('.')
+inputDir = os.listdir('.')
+powerpoints = []
+for x in inputDir: 
+    if x.endswith(".ppt"):
+        powerpoints.append(x)
 
-print(arr)
+print(powerpoints)
